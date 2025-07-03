@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navindi - Portfolio Home</title>
+    <title>Navindi - Contact Me</title>
     
     <!-- W3.CSS Framework -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,22 +14,22 @@
 <body>
     <!-- Navigation -->
     <nav class="w3-bar w3-teal w3-card w3-top">
-        <a href="#" class="w3-bar-item w3-button w3-white w3-text-teal w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-white w3-text-teal w3-large">
             <i class="fas fa-palette w3-margin-right"></i><strong>Navindi</strong>
         </a>
         
         <!-- Desktop Navigation -->
         <div class="w3-right w3-hide-small">
-            <a href="#home" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
                 <i class="fas fa-home w3-margin-right"></i>Home
             </a>
-            <a href="#skills" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+            <a href="skills.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
                 <i class="fas fa-palette w3-margin-right"></i>Skills
             </a>
             <a href="#about" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
                 <i class="fas fa-user w3-margin-right"></i>About
             </a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+            <a href="contact.html" class="w3-bar-item w3-button w3-white w3-text-teal">
                 <i class="fas fa-envelope w3-margin-right"></i>Contact
             </a>
         </div>
@@ -42,75 +42,74 @@
     
     <!-- Mobile Navigation -->
     <div id="mobileNav" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:56px">
-        <a href="#home" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
             <i class="fas fa-home w3-margin-right"></i>Home
         </a>
-        <a href="#skills" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+        <a href="skills.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
             <i class="fas fa-palette w3-margin-right"></i>Skills
         </a>
         <a href="#about" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
             <i class="fas fa-user w3-margin-right"></i>About
         </a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+        <a href="contact.html" class="w3-bar-item w3-button w3-white w3-text-teal" onclick="toggleMobileMenu()">
             <i class="fas fa-envelope w3-margin-right"></i>Contact
         </a>
     </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="w3-container w3-center w3-blue-grey w3-padding-64" style="margin-top:56px; margin-bottom:36px">
+    <!-- Page Header -->
+    <header class="w3-container w3-center w3-blue-grey w3-padding-32" style="margin-top:56px;">
         <div class="w3-content">
-            <!-- Profile Image -->
-            <img src="https://via.placeholder.com/200x200/37474f/ffffff?text=Navindi" 
-                 alt="Navindi Profile" class="w3-circle w3-border w3-border-white" 
-                 style="width:200px;height:200px;">
-            
-            <!-- Name and Title -->
-            <h1 class="w3-jumbo w3-text-white w3-margin-top">
-                <strong>Navindi Hiranya Ambanpitiya</strong>
+            <h1 class="w3-jumbo w3-text-white">
+                <i class="fas fa-envelope w3-margin-right"></i>Contact Me
             </h1>
+            <p class="w3-large w3-text-white w3-opacity">
+                Get in touch for academic collaboration or professional inquiries
+            </p>
+        </div>
+    </header>
+
+    <!-- Contact Information Section -->
+    <section class="w3-container w3-padding-64 w3-light-grey">
+        <div class="w3-content">
             
-            <h2 class="w3-large w3-text-light-grey w3-margin-bottom">
-                Creative Thinker | Problem Solver | Fast Learner
-            </h2>
-            
-            <!-- Description -->
-            <div class="w3-container w3-margin-top">
-                <p class="w3-large w3-text-white w3-opacity w3-margin-bottom w3-max-width">
-                    I’m a fourth-year undergraduate student passionate about art and driven by curiosity.
-                    I work with various mediums traditional and digital transforming ideas into visual stories. 
-                    My creative approach thrives on experimentation, skill development, and collaboration. I’m dedicated
-                     to expanding my artistic expression and exploring where my curiosity can take me next.
-                </p>
-            </div>
-            
-            <!-- Social Media Links -->
-            <div class="w3-margin-top w3-padding">
-                <a href="#" class="w3-button w3-circle w3-white w3-text-teal w3-large w3-margin" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#" class="w3-button w3-circle w3-white w3-text-teal w3-large w3-margin" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="w3-button w3-circle w3-white w3-text-teal w3-large w3-margin" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="w3-button w3-circle w3-white w3-text-teal w3-large w3-margin" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-            
-            <!-- Call to Action -->
-            <div class="w3-margin-top w3-padding">
-                <a href="#contact" class="w3-button w3-white w3-text-teal w3-round-large w3-padding-large w3-margin">
-                    <i class="fas fa-envelope w3-margin-right"></i>Get In Touch
-                </a>
-                <a href="#about" class="w3-button w3-border w3-border-white w3-text-white w3-round-large w3-padding-large w3-margin w3-hover-white w3-hover-text-teal">
-                    <i class="fas fa-user w3-margin-right"></i>Show Skills
-                </a>
+            <!-- Contact Details -->
+            <div class="w3-row-padding w3-margin-bottom">
+                <div class="w3-col l12">
+                    <div class="w3-card w3-white w3-padding-large">
+                        <h2 class="w3-text-teal w3-margin-bottom">
+                            <i class="fas fa-address-book w3-margin-right"></i>Contact Information
+                        </h2>
+                        
+                        <div class="w3-container">
+                            <ul class="w3-ul w3-hoverable">
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-phone w3-margin-right"></i>Phone Number
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">070 4063603</p>
+                                    <p class="w3-text-grey">Feel free to call during business hours for any inquiries or discussions.</p>
+                                </li>
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-envelope w3-margin-right"></i>Email Address
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">navindihiranya@gmail.com</p>
+                                    <p class="w3-text-grey">The best way to reach me for detailed discussions, project inquiries, or academic correspondence.</p>
+                                </li>
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-map-marker-alt w3-margin-right"></i>Postal Address
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">C-132/58, Maharangalla, Undugoda</p>
+                                    <p class="w3-text-grey">My current residential address for any formal correspondence or documentation.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="w3-container w3-dark-grey w3-padding-32">
@@ -118,7 +117,7 @@
             <div class="w3-row-padding">
                 <div class="w3-col m6 w3-center w3-margin-bottom">
                     <h3 class="w3-text-white">
-                        <i class="fas fa-code w3-margin-right"></i>Navindi Portfolio
+                        <i class="fas fa-palette w3-margin-right"></i>Navindi Portfolio
                     </h3>
                     <p class="w3-text-light-grey">
                         Building digital experiences that make a difference
