@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navindi - About Me</title>
+    
+    <!-- W3.CSS Framework -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="w3-bar w3-teal w3-card w3-top">
+        <a href="#" class="w3-bar-item w3-button w3-white w3-text-teal w3-large">
+            <i class="fas fa-palette w3-margin-right"></i><strong>Navindi</strong>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <div class="w3-right w3-hide-small">
+            <a href="./home.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+                <i class="fas fa-home w3-margin-right"></i>Home
+            </a>
+            <a href="./skills.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+                <i class="fas fa-palette w3-margin-right"></i>Skills
+            </a>
+            <a href="./about.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+                <i class="fas fa-user w3-margin-right"></i>About
+            </a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal">
+                <i class="fas fa-envelope w3-margin-right"></i>Contact
+            </a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobileNav" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:56px">
+        <a href="./home.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+            <i class="fas fa-home w3-margin-right"></i>Home
+        </a>
+        <a href="./skills.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+            <i class="fas fa-palette w3-margin-right"></i>Skills
+        </a>
+        <a href="./about.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+            <i class="fas fa-user w3-margin-right"></i>About
+        </a>
+        <a href="./contact.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-teal" onclick="toggleMobileMenu()">
+            <i class="fas fa-envelope w3-margin-right"></i>Contact
+        </a>
+    </div>
+
+    <!-- Page Header -->
+    <header class="w3-container w3-center w3-blue-grey w3-padding-32" style="margin-top:56px;">
+        <div class="w3-content">
+            <h1 class="w3-jumbo w3-text-white">
+                <i class="fas fa-user w3-margin-right"></i>About Me
+            </h1>
+            <p class="w3-large w3-text-white w3-opacity">
+                Getting to know me - My journey, passion, and aspirations
+            </p>
+        </div>
+    </header>
+
+    <!-- About Me Content -->
+    <section class="w3-container w3-padding-64 w3-light-grey">
+        <div class="w3-content">
+            
+            <!-- Personal Information -->
+            <div class="w3-row-padding w3-margin-bottom">
+                <div class="w3-col l12">
+                    <div class="w3-card w3-white w3-padding-large">
+                        <h2 class="w3-text-teal w3-margin-bottom">
+                            <i class="fas fa-id-card w3-margin-right"></i>Personal Information
+                        </h2>
+                        
+                        <div class="w3-container">
+                            <ul class="w3-ul w3-hoverable">
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-signature w3-margin-right"></i>Full Name
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">A.A Navindi Hiranya Ambanpitiya</p>
+                                    <p class="w3-text-grey">My complete academic and legal name as registered in official documents.</p>
+                                </li>
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-birthday-cake w3-margin-right"></i>Date of Birth
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">June 9, 1999</p>
+                                    <p class="w3-text-grey">Born in 1999, currently pursuing my undergraduate studies with dedication and enthusiasm.</p>
+                                </li>
+                                <li class="w3-padding-large">
+                                    <h4 class="w3-text-teal">
+                                        <i class="fas fa-graduation-cap w3-margin-right"></i>Academic Status
+                                    </h4>
+                                    <p class="w3-text-grey w3-large">Fourth-year Undergraduate Student</p>
+                                    <p class="w3-text-grey">Currently in my final year of undergraduate studies, focusing on academic excellence and skill development.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Me Description -->
+            <div class="w3-row-padding w3-margin-bottom">
+                <div class="w3-col l12">
+                    <div class="w3-card w3-white w3-padding-large">
+                        <h2 class="w3-text-teal w3-margin-bottom">
+                            <i class="fas fa-heart w3-margin-right"></i>About Me
+                        </h2>
+                        
+                        <div class="w3-container">
+                            <p class="w3-large w3-text-grey" style="text-align: justify; line-height: 1.8;">
+                                I'm a fourth-year undergraduate student passionate about art and driven by curiosity. 
+                                I work with various mediums traditional and digital transforming ideas into visual stories. 
+                                My creative approach thrives on experimentation, skill development, and collaboration. 
+                                I'm dedicated to expanding my artistic expression and exploring where my curiosity can take me next.
+                            </p>
+                            
+                            <div class="w3-row-padding w3-margin-top">
+                                <div class="w3-col m6 w3-margin-bottom">
+                                    <div class="w3-card w3-light-grey w3-padding">
+                                        <h4 class="w3-text-teal">My Passion</h4>
+                                        <p class="w3-text-grey">Art and creative expression through various mediums, both traditional and digital, always seeking new ways to tell visual stories.</p>
+                                    </div>
+                                </div>
+                                <div class="w3-col m6 w3-margin-bottom">
+                                    <div class="w3-card w3-light-grey w3-padding">
+                                        <h4 class="w3-text-teal">My Approach</h4>
+                                        <p class="w3-text-grey">Driven by curiosity and experimentation, I believe in continuous learning and collaborative growth in my artistic journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="w3-row-padding w3-margin-bottom">
+                <div class="w3-col l12">
+                    <div class="w3-card w3-white w3-padding-large">
+                        <h2 class="w3-text-teal w3-margin-bottom">
+                            <i class="fas fa-images w3-margin-right"></i>Photo Gallery
+                        </h2>
+                        
+                        <div class="w3-row-padding w3-margin-top">
+                            <div class="w3-col m6 w3-margin-bottom">
+                                <div class="w3-card w3-center">
+                                    <img src="https://via.placeholder.com/400x300/37474f/ffffff?text=Photo+1" 
+                                         alt="Navindi - Photo 1" class="w3-image" style="width:100%;">
+                                    <div class="w3-container w3-padding">
+                                        <h4 class="w3-text-teal">Academic Life</h4>
+                                        <p class="w3-text-grey">A glimpse into my academic journey and university experiences.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-col m6 w3-margin-bottom">
+                                <div class="w3-card w3-center">
+                                    <img src="https://via.placeholder.com/400x300/37474f/ffffff?text=Photo+2" 
+                                         alt="Navindi - Photo 2" class="w3-image" style="width:100%;">
+                                    <div class="w3-container w3-padding">
+                                        <h4 class="w3-text-teal">Creative Work</h4>
+                                        <p class="w3-text-grey">Showcasing my artistic projects and creative endeavors.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Future Goals -->
+            <div class="w3-row-padding">
+                <div class="w3-col l12">
+                    <div class="w3-card w3-blue-grey w3-padding-large w3-center">
+                        <h3 class="w3-text-white w3-margin-bottom">
+                            My Journey & Future Goals
+                        </h3>
+                        <p class="w3-large w3-text-white w3-opacity w3-left-align" style="text-align: justify;">
+                            As I approach the completion of my undergraduate studies, I reflect on the growth I've experienced both academically and personally. 
+                            My journey has been marked by a constant pursuit of knowledge, creative exploration, and meaningful connections with peers and mentors.
+                            <br><br>
+                            Looking ahead, I am excited about the opportunities that await me in my chosen field. I plan to continue developing my skills, 
+                            exploring new artistic mediums, and contributing positively to my community. My goal is to bridge the gap between traditional 
+                            artistic practices and modern digital techniques, creating innovative solutions and meaningful artistic expressions.
+                            <br><br>
+                            I believe that curiosity, dedication, and collaborative spirit will guide me toward a fulfilling career where I can make a 
+                            meaningful impact through my work and creativity.
+                        </p>
+                        <div class="w3-margin-top">
+                            <a href="home.html" class="w3-button w3-white w3-text-teal w3-padding-large w3-margin">
+                                <i class="fas fa-home w3-margin-right"></i>Back to Home
+                            </a>
+                            <a href="contact.html" class="w3-button w3-border w3-border-white w3-text-white w3-padding-large w3-margin w3-hover-white w3-hover-text-teal">
+                                <i class="fas fa-envelope w3-margin-right"></i>Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32">
+        <div class="w3-content">
+            <div class="w3-row-padding">
+                <div class="w3-col m6 w3-center w3-margin-bottom">
+                    <h3 class="w3-text-white">
+                        <i class="fas fa-palette w3-margin-right"></i>Navindi Portfolio
+                    </h3>
+                    <p class="w3-text-light-grey">
+                        Building digital experiences that make a difference
+                    </p>
+                </div>
+                <div class="w3-col m6 w3-center">
+                    <h4 class="w3-text-white w3-margin-bottom">Connect With Me</h4>
+                    <div class="w3-margin-bottom">
+                        <a href="#" class="w3-button w3-circle w3-teal w3-margin" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w3-button w3-circle w3-teal w3-margin" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="w3-button w3-circle w3-teal w3-margin" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w3-button w3-circle w3-teal w3-margin" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-center w3-padding-16 w3-border-top w3-border-grey" style="margin-top: 20px;">
+                <p class="w3-text-light-grey">
+                    © 2025 Navindi Portfolio. Made with <i class="fas fa-heart w3-text-red"></i> and dedication.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            var mobileNav = document.getElementById("mobileNav");
+            if (mobileNav.className.indexOf("w3-show") == -1) {
+                mobileNav.className += " w3-show";
+            } else {
+                mobileNav.className = mobileNav.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+</html>
